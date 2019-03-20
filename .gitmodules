@@ -1,3 +1,6 @@
 [submodule "graph-app-config-service"]
 	path = graph-app-config-service
 	url = https://github.com/Echelon133/graph-app-config-service
+[submodule "graph-app-discovery-service"]
+	path = graph-app-discovery-service
+	url = https://github.com/Echelon133/graph-app-discovery-service
