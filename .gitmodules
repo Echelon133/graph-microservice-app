@@ -4,3 +4,6 @@
 [submodule "graph-app-discovery-service"]
 	path = graph-app-discovery-service
 	url = https://github.com/Echelon133/graph-app-discovery-service
+[submodule "graph-app-graph-storage-service"]
+	path = graph-app-graph-storage-service
+	url = https://github.com/Echelon133/graph-app-graph-storage-service
