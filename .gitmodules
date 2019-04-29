@@ -10,3 +10,6 @@
 [submodule "graph-app-graph-path-finder-service"]
 	path = graph-app-graph-path-finder-service
 	url = https://github.com/Echelon133/graph-app-graph-path-finder-service
+[submodule "graph-app-gateway-service"]
+	path = graph-app-gateway-service
+	url = https://github.com/Echelon133/graph-app-gateway-service
