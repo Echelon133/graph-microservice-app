@@ -11,3 +11,11 @@ That library allows for:
 * serialization of the Dijkstra algorithm results
 * (optional) limiting the number of accepted edges during the deserialization (to prevent abusing the server with execution of the Dijkstra algorithm on too many edges)
 
+## API
+
+| Endpoint                                 | Method     | Request body                    | Description                                      |
+|------------------------                  |----------  |-----------------                |-------------                                     |
+|/api/graphs/{id}                          | GET        |  ---                            | Get a graph with specified *id*                                  |
+|/api/graphs/                              | POST       | JSON representation of a graph  | Validate and save given graph in the database
+|/api/graphs/{id}/paths?startFrom={vertex} | POST       |  ---                            | Execute the Dijkstra algorithm on a graph with given *id* (starting from the vertex that has a name equal to the name in parameter *startFrom*)
+
